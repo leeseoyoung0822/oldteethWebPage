@@ -6,22 +6,31 @@
     <description>Recent content in Categories on team page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://leeseoyoung0822.github.io/teamWebPage/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 21:49:20 +0200</lastBuildDate><atom:link href="https://leeseoyoung0822.github.io/teamWebPage/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>lorem</title>
-      <link>https://leeseoyoung0822.github.io/teamWebPage/categories/lorem/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>History</title>
+      <link>https://leeseoyoung0822.github.io/teamWebPage/categories/history/</link>
+      <pubDate>Sun, 28 May 2023 21:49:20 +0200</pubDate>
       
-      <guid>https://leeseoyoung0822.github.io/teamWebPage/categories/lorem/</guid>
+      <guid>https://leeseoyoung0822.github.io/teamWebPage/categories/history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
       <link>https://leeseoyoung0822.github.io/teamWebPage/categories/programming/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <pubDate>Sun, 28 May 2023 21:29:20 +0200</pubDate>
       
       <guid>https://leeseoyoung0822.github.io/teamWebPage/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lorem</title>
+      <link>https://leeseoyoung0822.github.io/teamWebPage/categories/lorem/</link>
+      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://leeseoyoung0822.github.io/teamWebPage/categories/lorem/</guid>
       <description></description>
     </item>
     
