@@ -4,7 +4,7 @@ date = "2023-05-28T21:49:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["History"]
 banner = "img/banners/banner-4.jpg"
-authors = ["Jeongjin Kim"]
+authors = ["김정진"]
 +++
 
 역사
