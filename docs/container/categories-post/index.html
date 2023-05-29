@@ -279,7 +279,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1>Categories Post</h1>
+							<h1>컨테이너의 역사</h1>
 						</div>
 					</div>
 				</div>
@@ -290,54 +290,70 @@
 					<div class="row">
 						<div class="col-md-9" id="blog-post">
 							<p class="text-muted text-uppercase mb-small text-right">
-								By <a href="/teamWebPage/authors/john-doe">John Doe</a>
+								By <a href="/teamWebPage/authors/john-doe">전준휘</a>
 
-								August 1, 2021
+								April 29, 2023
 							</p>
 
 							<div id="post-content">
+								<p>컨테이너의 역사에 대해 설명합니다.</p>
+
 								<p>
-									I&rsquo;m a post with multiple categories in the frontmatter:
-								</p>
-								<pre><code>categories = [&quot;programming&quot;,&quot;lorem&quot;,&quot;pseudo&quot;]
-</code></pre>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-									mauris nulla, vestibulum vel auctor sed, posuere eu lorem.
-									Aliquam consequat augue ut accumsan mollis. Suspendisse
-									malesuada sodales tincidunt. Vivamus sed erat ac augue
-									bibendum porta sed id ipsum. Ut mollis mauris eget ligula
-									sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed
-									tempus risus. Proin id hendrerit ante. Vestibulum vitae urna
-									ut mauris ultricies dignissim. Ut ante turpis, tristique vitae
-									sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta.
-									Vivamus maximus leo dolor, ut pellentesque lorem fringilla
-									nec. Mauris faucibus turpis posuere sapien euismod, a
-									ullamcorper mi maximus.
+									클라우드 컴퓨팅의 운영 및 관리에 가장 기본이 되는 기술 중의
+									하나인 “가상화 기술”은 나날이 발전하며 새로운 기술들을
+									도입하고 있습니다. 그 중에서도 최근 주목을 받고있는 것이 바로
+									“컨테이너”입니다. 컨테이너 기반의 오픈소스 플랫폼들은
+									하이브리드 클라우드 구현과 DevOps 그리고 마이크로서비스
+									아키텍처를 구현하기 위한 필수적인 기술로 자리잡고 있습니다.
 								</p>
 								<p>
-									Morbi varius ex vel justo dictum placerat. Sed ac arcu
-									pretium, varius elit eget, gravida purus. Fusce sit amet massa
-									mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus
-									mauris ut sagittis. Interdum et malesuada fames ac ante ipsum
-									primis in faucibus. Maecenas elit ligula, molestie quis magna
-									eu, semper posuere lorem. Mauris a justo pharetra, congue ex
-									eget, tincidunt massa. Maecenas sit amet neque lorem.
+									지난 2000 년 Unix OS 인 FreeBSD 에서 OS 가상화 기능인 FreeBSD
+									Jail를 발표합니다. FreeBSD Jail는 chroot처럼 파일 액세스를
+									제어하는 ​​것이 아니라 호스트 OS와 Jail라는 OS 가상화 환경에서
+									파일 시스템 , 프로세스, 네트워크을 분리 할 수있는 획기적인
+									기술을 제공했습니다. 이것이 컨테이너의 시작 입니다. Jail 을
+									통해 사용자 별로 환경을 분리하여 안전성을 확보하여 임대 서버나
+									호스팅 등의 서비스에 활용하였습니다. 다음 해인 2001 년에는
+									Linux에서도 커널에 Linux-Vserver 라는 기능을 추가하여 OS
+									가상화 환경을 이용할 수 있게 되었습니다. 또한 2004 년에는 상용
+									Unix OS인 Solaris 에서도 Solaris Zone라는 OS 가상화 기능이
+									제공됩니다. 2006 년, Google 은 Process Containers는 프로세스
+									자원 이용량을 제어하는 ​​기능을 발표합니다. 이듬해에 이 기능은
+									cgroup 으로 이름을 바꿉니다. 2008 년에는 Red Hat 에서
+									논리적으로 시스템 자원을 분할하는 Namespace를 발표하고, 비슷한
+									시기에 IBM 에서 LXC (LinuX Containers)를 발표합니다. LXC 가
+									cgroup 과 Namespace를 사용하여 구현한 최초의 Linux 컨테이너
+									엔진입니다. LXC 는 이후 컨테이너 엔진의 형태를 형태를 갖추게
+									되었습니다. 바로 현재 컨테이너 기술의 시초라고할 수 있습니다.
+									상용 제품으로는 Sun Microsystems (현재 Oracle)의 UNIX 계열
+									OS인 Solaris 10 에 탑재 된 Zone 라는 기능에 의해 처음으로
+									구현되었습니다. 그리고이 기술은 Parallels의 ” Parallels
+									Virtuozzo Containers “라는 형태로 x86 용 Linux 와 Windows 로
+									전파됩니다. 현재도 ” OpenVZ “라는 Linux 용의 오픈 소스
+									버전으로 오픈 소스 소프트웨어 (FLOSS) 커뮤니티에 의해 개발되고
+									있습니다. 하지만 현재의 컨테이너화 기술은 오픈 소스
+									소프트웨어로 ” Linux Containers “(LXC)와 Docker를 기반으로하고
+									있습니다.
 								</p>
 								<p>
-									Curabitur at elementum quam. Curabitur tristique elit non
-									sapien aliquam vulputate. Vivamus in odio tincidunt, tempor
-									sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus
-									dictum. Nam vel arcu quis mi fermentum ullamcorper non ac
-									lacus. Donec aliquet vitae ante at imperdiet. Aenean
-									scelerisque venenatis urna, eget elementum risus convallis ac.
-									Nullam gravida arcu lacus, non consectetur augue pretium non.
-									Duis dignissim eros id urna pretium congue. Nullam eu magna in
-									sem sollicitudin tempor. Pellentesque vel convallis ligula.
-									Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis
-									elit, eget tempor dolor eros ut mi. Maecenas eu placerat
-									lacus. Praesent congue pretium nulla, sed suscipit metus
-									rutrum vel.
+									그러한 개발 · 개선 사이클의 속도에 크게 기여할로서 최근 주목
+									받고있는 것이 컨테이너 기술이다. 컨테이너는 더 낮은 비용으로
+									애플리케이션을보다 효율적으로 개발함으로써 DevOps에 더 집중할
+									수 있습니다. 테스트와 환경 구성 그리고 트러블슈팅 같은
+									고질적인 수작업 중심의 IT 문제에 집중하지 않고 비즈니스 성장에
+									도움이되는 애플리케이션 개발에 더 많은 시간을 할애 할 수
+									있습니다. DevOps를 실현하는 중요한 기술 요소가 “컨테이너”
+									입니다. 애플리케이션의 운영 환경을 패키징하고 컨테이너는
+									고립된 리소스에서 환경을 제공하는 기술입니다. DX를 실현하기
+									위해서 민첩한 개발 방법은 큰 서비스 하나로 개발하는 것이
+									아니라 개별 기능별로 분할된 마이크로 서비스라는 단위로
+									개발하는 것이기 때문에 컨테이너가 가장 적합한 기술이라고 할 수
+									있고, 따라서 컨테이너 수가 증가 추세에 있습니다. 컨테이너 수가
+									증가하면 어떤 노드에 어떻게 자원을 배분하는 것이 효율적인가 와
+									같은 관리문제가 복잡 해집니다. 그러한 관리를 효율적으로 수행
+									해주는 소프트웨어가 “Kubernetes (K8s) ‘입니다. 컨테이너
+									오케스트레이션의 사실상의 표준이 되는 오픈소스 소프트웨어
+									입니다.
 								</p>
 							</div>
 
