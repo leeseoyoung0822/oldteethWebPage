@@ -2,7 +2,7 @@
 title = "LINUX 명령어"
 date = "2023-05-28T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming","lorem","pseudo"]
+categories = ["programming"]
 banner = "img/banners/banner-4.jpg"
 authors = ["Jeongjin Kim"]
 +++
@@ -77,7 +77,8 @@ cp -f file1 file2 : 강제 복사(file2라는 파일이 이미 있을 경우 강
 cp -r dir1 dir2 : 디렉터리 복사. 폴더 안의 모든 하위 경로와 파일들을 복사
  
 
-6. mv (Move) : 파일 이동
+6. 
+mv (Move) : 파일 이동
 mv file1 file2 : file1 파일을 file2 파일로 변경
 mv file1 /dir : file1 파일을 dir 디렉터리로 이동
 mv file1 file2 /dir : 여러 개의 파일을 dir 디렉터리로 이동
